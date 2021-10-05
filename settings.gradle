@@ -1,0 +1,4 @@
+include ':mylibrary'
+include ':mybakerywear'
+include ':app'
+rootProject.name = "MSHOP"
