@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="27dp"
-            android:text="Cakes"
+            android:text="Laptops"
             android:textColor="#774545"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
@@ -90,7 +90,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="Pastries"
+        android:text="Phones"
         android:textColor="#774545"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -167,46 +167,5 @@
         app:layout_constraintStart_toEndOf="@+id/imageView14"
         app:layout_constraintTop_toTopOf="@+id/imageView14" />
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="16dp"
-        android:text="Chocolates"
-        android:textColor="#774545"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
-
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="137dp"
-        android:layout_height="109dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="8dp"
-        android:src="@drawable/capture38"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
-
-    <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="109dp"
-        android:layout_height="108dp"
-        android:layout_marginStart="10dp"
-        android:src="@drawable/celebration"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView18"
-        app:layout_constraintStart_toEndOf="@+id/imageView18"
-        app:layout_constraintTop_toTopOf="@+id/imageView18" />
-
-    <ImageView
-        android:id="@+id/imageView20"
-        android:layout_width="109dp"
-        android:layout_height="116dp"
-        android:layout_marginStart="10dp"
-        android:src="@drawable/com"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView19"
-        app:layout_constraintStart_toEndOf="@+id/imageView19"
-        app:layout_constraintTop_toTopOf="@+id/imageView19" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

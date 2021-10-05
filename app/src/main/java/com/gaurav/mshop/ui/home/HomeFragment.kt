@@ -81,7 +81,6 @@ class HomeFragment : Fragment(), SensorEventListener {
         slideModels.add(SlideModel(R.drawable.hbbaked, ScaleTypes.FIT))
         slideModels.add(SlideModel(R.drawable.cake, ScaleTypes.FIT))
         slideModels.add(SlideModel(R.drawable.baked, ScaleTypes.FIT))
-        slideModels.add(SlideModel(R.drawable.cakes, ScaleTypes.FIT))
         imgSlider.setImageList(slideModels)
 
         sensorManager = activity?.getSystemService(SENSOR_SERVICE) as SensorManager

@@ -18,7 +18,7 @@ class AboutUsFragment : Fragment() {
 
     private val callback = OnMapReadyCallback { googleMap ->
 
-        val myBakeryLocation = LatLng(26.7361846, 86.9338991)
+        val myBakeryLocation = LatLng(27.910892, 84.889940)
         googleMap.addMarker(MarkerOptions().position(myBakeryLocation).title("MyBakery"))
         googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(myBakeryLocation, 15F), 4000, null )
         googleMap.uiSettings.isZoomControlsEnabled = true
